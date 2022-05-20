@@ -43,8 +43,8 @@ public class BonusServiceTest {
 
     @org.junit.jupiter.api.Test
     void shouldCalculateForUnregisteredAndUnderLimit() {
-
         BonusService service = new BonusService();
+
         long amount = 1000;
         boolean registered = false;
         long expected = 10;
